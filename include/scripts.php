@@ -16,10 +16,10 @@
         if (value === "Profesor") {
             $("#log-cedula")[0].value = "2";
             $("#log-password")[0].value = "123";
-            M.updateTextFields();
         } else if (value === "Estudiante") {
             $("#log-cedula")[0].value = "3";
             $("#log-password")[0].value = "123";
         }
+        M.updateTextFields();
     });
     </script>

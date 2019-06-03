@@ -34,8 +34,8 @@
                                     <div class="input-field col s6" style="margin-top: 0 !important; margin-bottom: 0 !important;">
                                         <select>
                                             <option value="" disabled selected>Seleccione</option>
-                                            <option value="1">Estudiante</option>
-                                            <option value="2">Profesor</option>
+                                            <option value="Estudiante">Estudiante</option>
+                                            <option value="Profesor">Profesor</option>
                                         </select>
                                         <label>Demo Users</label>
                                     </div>

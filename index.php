@@ -21,7 +21,7 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col s12 m8">
+                <div class="col s12 m8 offset-m2">
                     <div class="card">
                         <ul class="tabs">
                             <li class="tab col s6"><a href="#Login">Entrar</a></li>
@@ -29,8 +29,18 @@
                         </ul>
                         <div id="Login" class="card-content">
                             <form action="" id="login">
-                                <span class="card-title margen">Login</span>
-                                <div class="input-field">
+                                <div class="row" style="margin-bottom: 0 !important;">
+                                    <span class="card-title margen col s6">Login</span>
+                                    <div class="input-field col s6" style="margin-top: 0 !important; margin-bottom: 0 !important;">
+                                        <select>
+                                            <option value="" disabled selected>Seleccione</option>
+                                            <option value="1">Estudiante</option>
+                                            <option value="2">Profesor</option>
+                                        </select>
+                                        <label>Demo Users</label>
+                                    </div>
+                                </div>
+                                <div class="input-field" style="margin-top: 0 !important;">
                                     <input id="log-cedula" type="text" name="log-id">
                                     <label for="cedula">Cedula</label>
                                 </div>
@@ -65,16 +75,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-content">
-                            <span class="card-title">Demo user</span>
-                            <p>Cedula: 3</p>
-                            <p>Contraseña: 123</p>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </main>

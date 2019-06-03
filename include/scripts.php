@@ -11,4 +11,15 @@
     $(document).ready(function() {
         $('select').formSelect();
     });
+    $("select").change(function() {
+        var value = $('select')[0].selectedOptions[0].value;
+        if (value === "Profesor") {
+            $("#log-cedula")[0].value = "2";
+            $("#log-password")[0].value = "123";
+            M.updateTextFields();
+        } else if (value === "Estudiante") {
+            $("#log-cedula")[0].value = "3";
+            $("#log-password")[0].value = "123";
+        }
+    });
     </script>
